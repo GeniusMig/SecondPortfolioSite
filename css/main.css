@@ -1,0 +1,501 @@
+/***************************************************
+					MOBILE / TABLET
+****************************************************/
+
+/***************
+	MAIN
+***************/
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	max-width: 2500px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	height: 100%;
+	margin: 0 auto;
+}
+
+h6 {
+	z-index: 3;
+	color:white;
+	font-size: 2vh;
+	position: absolute;
+	bottom: 0;
+	right:0;
+	left: 0;
+}
+
+
+header {
+	text-align: center;
+	height: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style:none;
+}
+
+li a {
+	color: white;
+}
+
+h4 {
+	position: relative;
+	margin: 0;
+	padding: 8% 5%;
+	color: white;
+	font-size: 7.2vh;
+	text-shadow: 2px 2px 4px blue;
+}
+
+#home, #portfolio, #about, #contact {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,1);
+	color: white;
+	z-index: 0;
+}
+
+p {
+	line-height: 1.5;
+	text-align: left;
+	margin: 0 3%;
+	position: relative;
+	font-size: 3vh;
+	padding-bottom: 5%;
+}
+
+.name {
+	opacity: 0;
+}
+
+.navName {
+	display: none;
+}
+
+/*****************
+	   MENU
+******************/
+
+.hamburger {
+	margin: 0;
+	width: 15vw;
+	height:18vw;
+	display: block;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	z-index:3;
+	background-color: #222;
+	border: dotted 1px #444;
+	
+}
+
+.hamburger:active {
+	background-color: rgba(255, 255, 255, .5);
+	width: 13vw;
+	height:16vw;
+	z-index: 3;
+}
+
+#navMenu {
+	text-align: center;
+}
+
+.navMenu {
+	display: none;
+}
+
+.navMenuActive {
+	text-align: center;
+	background-color: #262626;
+	height: 100%;
+	width:100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:2;
+}
+
+.navItem {
+	margin: 1.5vh auto;
+	font-size: 10vh;
+}
+
+.navList {
+	padding: 0;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 35%;
+}
+
+/*******************
+		HOME
+********************/
+.headName {
+	display:none;
+}
+
+.socialList {	
+	text-align: center;
+	margin: auto;
+	z-index: 3;
+	position: absolute;
+	top: 88%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 0;
+}
+
+.socialList li {
+	display:inline;
+	margin: 0;
+	padding: 0;
+}
+
+.socialIcon {
+	width: 13%;
+	margin:0;
+	opacity: 1;
+	padding: 0 2%;
+}
+
+.socialIcon:active {
+	width: 15%;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	position: absolute;
+	top:10%;
+	left: .5%;
+	right: .5%;
+	font-size: 14vw;
+	color:#112C59;
+	text-shadow: 1px 1px 2px white;
+}
+
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+	position: absolute;
+	right:.5%;
+	left:.5%;
+	top:70%;
+	font-size: 7vw;
+	color:#989A99;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 1px white;
+	opacity: 0;
+}
+
+.downArrow {
+	width: 40%;
+	position: absolute;
+	margin: auto;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+	display: none;
+}
+
+.homeBg {
+	position: absolute;
+	z-index: 0;
+	opacity: .5;
+	width:100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right:0;
+}
+
+#home {
+	top:0;
+	background-color: black;
+}
+
+#portfolio {
+	height: auto;
+	position: relative;
+	top:0;
+}
+
+#about {
+	position: relative;
+	top:0;
+	height: auto;
+}
+
+#contact {
+position: relative;
+top: 0;
+}
+
+.migPic {
+	border: solid black 2px;
+	position: relative;
+	opacity: 0;
+	height:35%;
+	width:35%;
+	right: 0;
+	top:0;
+	bottom:0;
+	left: 0;
+	margin: 0 auto;
+	border-radius: 15%;
+}
+
+.workItem {
+	opacity:0;
+	width: 50%;
+	height: 25vh;
+}
+
+.inView {
+	 opacity: 1;
+   transition: opacity 3s ease-in-out;
+   -moz-transition: opacity 3s ease-in-out;
+   -webkit-transition: opacity 3s ease-in-out;
+}
+
+.appList {
+	padding:0;
+}
+
+.appList li {
+	margin: 2% auto;
+	padding-top: 2vh;
+
+}
+
+/*******************
+	  PORTFOLIO
+********************/
+.portfolioBg {
+	position: absolute;
+	width: 100%;
+	height: 110%;
+	z-index: -2;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+}
+
+/*******************
+	   ABOUT
+********************/
+.aboutBg {
+	opacity: .5;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+}
+
+/*******************
+	   CONTACT
+********************/
+.contactBg {
+	position: absolute;
+	height:100%;
+	width:100%;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	z-index: -2;
+	opacity: .5;
+
+}
+
+/*******************************
+	RESPONSIVE / DESKTOP
+*********************************/
+@media screen and (min-width:801px),
+screen and (min-width:600px) and (orientation:landscape){
+
+	/***HEADER***/
+
+	.hamburger {
+		display: none;
+	}
+
+	 .socialList {
+	 	width: 30%;
+	 	position: fixed;
+	 	top:2% ;
+	 	height: 5%;
+	 	margin:0 auto;
+	 	left:5%;
+	 	right:25%;
+	 	z-index:4;
+	 	display:inline-block;
+	 }
+
+	 .socialIcon {
+	 	width: 10%;
+	 	height: 110%;
+	 	padding:0 2%;
+	 }
+
+	 .socialIcon:hover {
+	 	width:12%;
+	 	padding:0;
+	 	margin: -10% 3% 0;
+	 }
+
+	 .name {
+	 	font-size: 7vw;
+	 	margin: 0 auto;
+	 }
+
+	 .name2 {
+	 	font-size: 4vw;
+	 	margin: 0 auto;
+	 }
+
+	 .homeBg {
+	 	height: 130%;
+	 }
+
+	 #navMenu {
+	 	position: fixed;
+	 	z-index: 3;
+	 	width: 100%;
+	 	display: block;
+	 	top: 0;
+	 	height: 9vh;
+	 	background-color: rgba(0,0,0,.7);
+	 	box-shadow: 2px 2px 5px white;
+	 }
+
+	 .navList {
+	 	text-align: right;
+	 	width: 100%;
+	 	height: 100%;
+	 	margin: 0;
+	 	padding: 0;
+	 	overflow: hidden;
+	 }
+
+	 .navList li {
+		display: inline-block;
+		margin: 0 1%;
+		padding:  20px 0;
+		height: 40px;
+	 }
+
+	 .navList li:hover {
+	 	background-color:white;
+	 }
+
+	 .navList li a {
+	 	padding: 10% 1%;
+	 }
+
+	 .navItem {
+	 	font-size: 4vh;
+	 	height: 70px;
+	 }
+
+	 .navItem:hover {
+	 	box-shadow: 0px 3px 4px blue;
+	 	color: black;
+	 }
+	 
+	 .deskName {
+	 	position: fixed;
+	 	z-index:4;
+	 	color: white;
+	 	font-size: 5vh;
+	 	display: block;
+	 	float: left;
+	 	margin: 1%;
+	 	text-shadow: 3px 3px 3px blue;
+	 }
+
+	 h4 {
+	 	padding-top: 7%;
+	 	padding-bottom:2%;
+	 }
+
+	 p {
+	 	line-height: 1.5em;
+	 }
+	 /***PORTFOLIO***/
+
+	 #portfolio {
+	 	height: 100vh;
+	}
+	.appList li{
+		display:inline;
+		margin: 0 3vw;
+	}
+
+	.workItem {
+		margin:0;
+		width: 15%;
+		height: 35%;
+		box-shadow: yellow 2px 2px  25px;
+		border-radius: 20%;
+	}
+
+	 /***ABOUT***/
+	 .aboutContainer h3{
+	 	font-size: 2vw;
+
+	 }
+
+	 #about	{
+	 	text-align: center;
+	 	height: 100%;
+	 }
+
+	 .migPic {
+	 	width: 35%;
+	 	border-radius: 25%;
+	 	height:75%;
+	 	margin-top: 7%;
+	 }
+
+	 .aboutContainer {
+	 	width: 40%;
+	 	padding: 3% 5%;
+	 	box-shadow: white 5px 5px 25px;
+	 	background: rgba(0,0,0, .5);
+	 	height:70%;
+	 	float: right;
+	 	margin-right: 7vw;
+	 	margin-top: 7%;
+	 	border-radius: 10%;
+	 	overflow: auto;
+	 }
+
+
+	 /***CONTACT***/
+	 
+	 #contact p {
+	 	width: 50%;
+	 	display: inline-block;
+	 }
+	 
+
+}
